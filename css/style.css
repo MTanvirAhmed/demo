@@ -1,0 +1,49 @@
+:root{
+	--pink :rgb(250, 30, 61);
+	--grey :#222222;
+}
+/*global css*/
+*,ul{
+	margin: 0;
+	padding: 0;
+}
+body{font-family: 'Oswald', sans-serif;}
+a{text-decoration: none;}
+.active{color: var(--pink);}
+
+
+
+/*header section css*/
+
+header{width: 240px;height:100vh;background-color:#000;position:fixed;text-align: center;}
+header .logo{padding: 40px 0;}
+header nav ul{margin-bottom: 40px;}
+header nav ul li{margin-bottom: 8px;}	
+header nav ul li a{font-size: 17px;text-transform: uppercase;font-weight: 500;color: white;}
+header nav ul li a:hover{color: var(--pink);}
+header nav button{padding:12px 32px;background-color: var(--grey);color: white;font-size: 17px;text-transform: uppercase;font-weight: 500;}
+header nav button i{margin-left: 6px;font-weight: 600;}
+header .navicons{position: absolute;width: 100%;bottom: 10px;}
+header .navicons  a i{color:white;margin-right: 12px;font-size: 15px;}
+
+main{width: calc(100% - 240px);margin-left: auto;}
+
+.banner{height:100vh ; width: 100%;background-image: url(../img/b1.jpg);background-size:cover;background-position:center;background-attachment:scroll;background-repeat:no-repeat; }
+.banner .row{align-items: center;height: 100vh;}
+.banner .b-content{}
+.banner .b-content h5{color: white;font-size: 24px;text-transform: uppercase;letter-spacing: 4px;margin-bottom: 20px;}
+.banner .b-content h1{font-size: 50px;color: var(--pink);text-transform: uppercase;font-weight: 500;margin-bottom: 40px;}
+.banner .b-content p{font-size: 20px;color: white;font-weight: 300;margin-bottom: 50px;}
+.banner .b-content .theme-btn{background: var(--pink);color: white;padding: 12px 32px;text-transform: uppercase;}
+
+
+.b-extra{width: 100%;}
+.b-extra .eb-content{background-color: white;}
+.b-extra .eb-content .bg-img{background-image: url(../img/1.jpg);background-size:cover;background-position:center;background-repeat:no-repeat; }
+.b-extra .eb-content h6{background-color: black;color: white;text-transform: uppercase;padding: 10px;}
+.b-extra .eb-content h5{font-size: 14px;color: #1a1a1a;text-transform: uppercase;margin-top: 16px;}
+.b-extra .eb-content p{font-size: 15px;font-weight: 300;color: #1a1a1a;padding-top: 16px;}
+.b-extra .eb-content a{font-size: 17px;text-transform: uppercase;color: var(--pink);font-weight: 300;}
+.b-extra .eb-content a:hover{text-decoration: underline;}
+.b-extra .p-4{padding: 42px!important;}
+.b-extra .bg-img img{right: 0;top: 50%;transform: translateY(-50%);}
